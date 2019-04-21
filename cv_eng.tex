@@ -1,14 +1,14 @@
-\documentclass[margin]{res} 
+\documentclass[margin]{res}
 
-\usepackage{marvosym} 
-\usepackage{ifsym} 
+\usepackage{marvosym}
+\usepackage{ifsym}
 \usepackage{fontawesome}
 %==========================================
 
-% the margin option causes section titles to appear to the left of body text 
+% the margin option causes section titles to appear to the left of body text
 \textwidth=5.2in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{newcent}   % uses new century schoolbook postscript font
 
 \usepackage{tikz}
 \newcommand{\github}{%
@@ -156,11 +156,11 @@
 \end{tikzpicture}
 }
 
-\begin{document} 
- 
+\begin{document}
+
 \name{Sergio Rodriguez Freire\\[12pt]} % the \\[12pt] adds a blank line after name
 
-\begin{resume} 
+\begin{resume}
 
 \moveleft.5\hoffset\centerline{Boulevard du Souverain 47/7 1160 Brussels}
 \moveleft.5\hoffset\centerline{sergio.rodriguez.freire@gmail.com \hspace{2 mm} \Mobilefone \hspace{1 mm} (+32)476013137 \hspace{2 mm} \faSkype\ \hspace{1 mm} sergio.rodriguez.freire}
@@ -174,11 +174,11 @@ Senior Software Engineer, passionate about software and its applications in engi
 
  {\bf Software Engineer,} Qorvo, Zele, Belgium \hfill May 18 - Present
  \begin{itemize} \itemsep -2pt
- \item Lead software developer of a new generation RF 
- \item Participates in the development of firmware and PC software for Qorvo's Functional Test System Platform (FTS). FTS is a low budget RF validation system, designed to be used with Qorvo's IoT chips in low cost high volume OEM's production plants. The board is based on a STM32 MCU, a Spartan FPGA and an in-house radio chip.
- \item Currently working on a new generation FTS silicon, designing a SDK that can be used by customers to develop their own custom applications and creating a test regression hardware setup for continuous integration.
- \item Good knowledge of Zigbee and Bluetooth radio communication specs and ARM Cortex-M chip programming.
- \item Toolchain: Visual Studio C\#/C++, Embedded C, Python, SQLite, TeamCity, Perforce, RF Lab instrumentation.
+ \item Member of a multidisciplinary HW-SW team designing test systems for OEMs building products with Qorvo silicon integrated. 
+ \item Lead software developer of the Test Development Kit©. A low-cost software-defined radio system, custom designed to validate the Zigbee and BLE PHY perfomance of Qorvo radio chips in low cost, high volume OEM's factories. The board is based on a STM32 MCU, an FPGA and an in-house radio chip.
+ \item Main software architect of the platform in close collaboration with the hardware team.
+ \item Responsible for ensuring that the project is delivered within schedule and specs. Manage resources. Plan future road-map. Write documentation and provide internal training.
+ \item Toolchain: Visual Studio C\#/C++, Embedded C, Python, SQLite, TeamCity, Jira, Perforce, RF Lab instrumentation.
 \end{itemize}
 
  {\bf Software Engineer,} SIACON, Goiânia, Brazil \hfill Jan 13 - Apr 18
@@ -189,18 +189,18 @@ Senior Software Engineer, passionate about software and its applications in engi
  \item Creation of a hardware emulation layer used for automated testing.
  \item Toolchain: Visual Studio C\#/C++, Native Interop, Python, WPF, Qt4, SQL Server, FFmpeg, OpenCV, SignalR, TeamCity, PowerShell, Git.
 \end{itemize}
- 
+
  {\bf Software Engineer,} TEIN Technology, Brussels, Belgium \hfill Oct 11 - Dec 12
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item Responsible for the maintenance and extension of SightVision©, a CCTV application used for traffic control and surveillance in several Belgian and Dutch sites.
  \item Extended the video playback application, created a new messaging service and developed new IP camera and DVR drivers.
  \item Toolchain: Delphi, Visual Studio C\#, SQL Server, Subversion.
  \end{itemize}
- 
+
 {\bf Software Engineer,} Alcatel-Lucent, Antwerpen, Belgium \hfill  Apr 09 - Jul 11
 \begin{itemize} \itemsep -2pt %reduce space between items
 \item Designed IP-DSLAM access nodes for European Telcos. The development platform was based on a 2-core Freescale processor, running VxWorks OS and a Broadcom switch equipped with 24x10Gbps ports.
-\item Developed an MPLS protocol stack for Deutsche Telekom, mainly focusing on the L2/L3 protocol filters, QoS module and the SNMP engine in the management plane. Ported the firmware layer for a new high capacity Ethernet switch for France Telecom. Designed a new DSLAM protocol testing framework using Python and Scapy. 
+\item Developed an MPLS protocol stack for Deutsche Telekom, mainly focusing on the L2/L3 protocol filters, QoS module and the SNMP engine in the management plane. Ported the firmware layer for a new high capacity Ethernet switch for France Telecom. Designed a new DSLAM protocol testing framework using Python and Scapy.
 \item Toolchain: C/C++, Python, Green Hills MULTI, Eclipse, Clearcase.
 \end{itemize}
 
@@ -222,7 +222,7 @@ Senior Software Engineer, passionate about software and its applications in engi
 {\bf Software Engineer,} SONY, Brussels, Belgium \hfill  Jan 99 - Dec 04
 \begin{itemize} \itemsep -2pt %reduce space between items
 \item Developed Drivers and middleware for a family of high-end DTV models. The main target platform was NEC’s Emma, an MPEG-2 SOC based on a MIPS core, running pSOS, Nucleus RTOS and Fusion TCP/IP stack.
-\item Developed drivers for various components: DVB-S/T tuners, flash, I²C serial bus, DVB-TS demux and MPEG-2 AV decoder. 
+\item Developed drivers for various components: DVB-S/T tuners, flash, I²C serial bus, DVB-TS demux and MPEG-2 AV decoder.
 \item Wrote a middleware library that handled the MPEG-2 service selection chain, i.e. RF tuning, DVB-T network scanning and AV demux and decoding, including the corresponding Java APIs, as required for a JVM-based MHP© compliant stack.
 \item Maintenance of the AWT graphics engine and the DSM-CC file streaming library.
 \item Toolchain: C/C++, Java/JNI, Green Hills MULTI, PMON and ICE emulators, Emacs, UNIX, Clearcase.
@@ -230,11 +230,11 @@ Senior Software Engineer, passionate about software and its applications in engi
 
 {\bf Software Engineer,} Indra Espacio, Barcelona, Spain \hfill  Jun 98 - Jan 99
 \begin{itemize} \itemsep -2pt %reduce space between items
-\item Worked on the Arcanet© project, a LEO satellite grid system for voice and data communications, subcontracted from the European Space Agency. Mainly involved in call switching protocol implementation on a platform running QNX OS. 
+\item Worked on the Arcanet© project, a LEO satellite grid system for voice and data communications, subcontracted from the European Space Agency. Mainly involved in call switching protocol implementation on a platform running QNX OS.
 \item Toolchain: Visual Studio C/C++.
 \end{itemize}
 
-\section{Education} 
+\section{Education}
 { \bf MSc. in Telecommunications Engineering, } Polytechnic University of Catalonia, Barcelona, Spain \hfill 1993-1999
 \begin{itemize} \itemsep -2pt
 \item Master’s Thesis: Study of LEGION neural networks, and its applications in computer vision. Creation of a neural network simulator using MATLAB/C.
@@ -249,7 +249,7 @@ Senior Software Engineer, passionate about software and its applications in engi
 
 \section{Languages}
 Fluent in English, French, Spanish (mother tongue), Portuguese and Catalan. \newline
-Basic knowledge of Dutch and German.
+A2 level in Dutch.
 
 \section{Personal Details}
 Born on the 22nd of September 1975. Married, 2 children.
@@ -257,26 +257,23 @@ Born on the 22nd of September 1975. Married, 2 children.
 \section{Visa Status}
 EU national (Spanish). Wife and children are Belgian citizens.
 
-\section{Activities and Project Work} 
-		{\bf  Creator,}  IFGApp    \hfill                                 2015 
+\section{Activities and Project Work}
+		{\bf  Creator,}  IFGApp    \hfill                                 2015
                  \begin{itemize} \itemsep -2pt
 
-               \item    
+               \item
 Developed the backend for a Python/Django based web app. Its purpose is to automate the handling of IP (intellectual property) assets for the Instituto Federal de Goiás.
                 \item \Mundus~\url{http://sgi.ifg.edu.br}
                \item  \github{\url{http://github.com/sergiorf/ifgapp}}
 		 \end{itemize}
 
-                  {\bf  Creator,}  POSApp    \hfill                                 2013 
+                  {\bf  Creator,}  POSApp    \hfill                                 2013
                  \begin{itemize} \itemsep -2pt
 
-               \item    
+               \item
 Written in C for a brazilian company in the e-ticketing business. It is a lightweight e-commerce app for POS (Point of Sale) handheld terminals, that runs on top of Verix V OS from Verifone. It contains a rudimentary GUI engine, an HTTP client and a regex parser. Developed and tested on Verifone's Vx680 model.
                \item  \github{\url{http://github.com/sergiorf/posapp}}
 		 \end{itemize}
 
-\end{resume} 
-\end{document} 
-
-
-
+\end{resume}
+\end{document}
